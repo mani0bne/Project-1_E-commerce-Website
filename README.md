@@ -32,6 +32,14 @@ To set up InnovateTech locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/innovatetech.git
 
+2. To run this application, we are supposed to install nodejs modules such as mongoose, express and body-parser
+   ```bash
+   npm install {modulename}
+
+3. To start the server:
+   ```bash
+   npm start | node server.js
+
 ## Technologies Used
 I have used HTML, CSS  JavaScript frameworks to built this webpage.
 
