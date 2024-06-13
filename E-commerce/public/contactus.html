@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link type="text/css" href="style1.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="header">
+    <h1>InnovateTech</h1>
+    <div class="icon">
+    <img src="5157bee2-a533-4599-92fa-ab36389cc8f9\innovation-logo-1223.png" id="icon">
+    <script>
+      document.getElementById('icon').addEventListener('click', function () {
+        window.location.href = 'catalogue.html';
+      })
+</script>
+  </div>
+    <nav>
+      <div class="AboutUs">
+        <button type="button" id="AboutUs">AboutUs</button>
+        <script>
+
+          document.getElementById('AboutUs').addEventListener('click', function () {
+            window.location.href = 'aboutus.html';
+          })
+
+        </script>
+      </div>
+      <div class="ContactUs">
+        <button type="button" id="ContactUs">ContactUs</button>
+        <script>
+          document.getElementById('ContactUs').addEventListener('click', function () {
+            // Perform any necessary logout operations here, such as clearing session data
+            // Redirect to login.html
+            window.location.href = 'contactus.html';
+          })
+        </script>
+      </div>
+
+      <div class="searchbox">
+        <input type="search" placeholder="Search Something..." class="box" style="height: 2rem;">
+        <button type="search-button">Search</button>
+      </div>
+      <div class="cart">
+        <button type="button" id="cart">Cart</button>
+      </div>
+
+      <div class="logout">
+        <button id="logoutButton" type="button">Logout</button>
+        <script>
+
+          document.getElementById('logoutButton').addEventListener('click', function () {
+            // Perform any necessary logout operations here, such as clearing session data
+            // Redirect to login.html
+            window.location.href = 'login.html';
+          })
+
+
+        </script>
+    </nav>
+  </div>
+
+  <h1>Contact Us - Innovate Tech</h1>
+  <p>
+    We'd love to hear from you! Whether you have questions about our products, need help with an order, or just want to
+    share your feedback, our team at Innovate Tech is here to assist you. <br>Here's how you can get in touch with us:
+  </p>
+
+  <h2>Customer Service</h2>
+  <p>If you need assistance with a product or an order, our customer service team is ready to help. <br>You can contact
+    us through any of the following methods:</p>
+
+  <h4>Email us at:</h4>
+  <a href="mailto:support@innovatetech.com">support@innovatetech.com</a>
+
+  <h4>Call us at:(Monday–Friday, 9 AM–6 PM ET)</h4>
+  <a href="callto:+1 (800) 123-4567">Phone: +1 (800) 123-4567</a>
+
+
+  <h3> Chat: Visit our website and click the chat icon in the bottom right corner for instant assistance.</h3>
+
+  <h2>Leave a message here</h2>
+  
+  <div class="container">
+    <form action="/submit" method="post">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" required></textarea>
+        </div>
+        <div class="submitbtn">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+  <h2>Mailing Address</h2>
+  If you need to send us physical mail or returns, please use the following address: <br>
+
+  <p>
+    Innovate Tech <br>
+    123 Tech Avenue, Suite 101 <br>
+    Tech City, TC 12345 <br>
+    USA
+  </p>
+
+  <h2>Feedback and Suggestions</h2>
+  <p>
+    Your feedback helps us improve and provide a better experience for you. <br> If you have suggestions or comments,
+    please reach out to us through any of the contact methods above. <br> We appreciate your input and strive to respond
+    promptly.
+    <br>
+    Thank you for choosing Innovate Tech! We look forward to assisting you with all your tech needs. If you have any
+    other questions or concerns, please don't hesitate to reach out.
+  </p>
+
+ 
+  <footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>About InnovateTech</h3>
+            <p>InnovateTech is your one-stop shop for the latest and greatest in technology. We offer a wide range of products to help you innovate and stay ahead in the tech world.</p>
+        </div>
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact Information</h3>
+            <p>Email: support@innovatetech.com</p>
+            <p>Phone: +123-456-7890</p>
+            <p>Address: 123 Tech Avenue, Silicon Valley, CA</p>
+        </div>
+        <div class="footer-column">
+            <h3>Payment Methods Accepted</h3>
+            <ul class="payment-methods">
+                <li><img src="5157bee2-a533-4599-92fa-ab36389cc8f9/visa-logo-2.png" alt="Visa"></li>
+                <li><img src="5157bee2-a533-4599-92fa-ab36389cc8f9/mastercard.jpeg" alt="Mastercard"></li>
+                <li><img src="5157bee2-a533-4599-92fa-ab36389cc8f9/paypal.jpeg" alt="PayPal"></li>
+                <li><img src="5157bee2-a533-4599-92fa-ab36389cc8f9/Amex.png" alt="American Express"></li>
+                <li><img src="5157bee2-a533-4599-92fa-ab36389cc8f9/Discover.jpg" alt="Discover" style="width: 50px;"></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 InnovateTech. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+
+</html>
