@@ -30,7 +30,7 @@ To set up InnovateTech locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/innovatetech.git
+   git clone https://github.com/mani0bne/innovatetech.git
 
 2. To run this application, we are supposed to install nodejs modules such as mongoose, express and body-parser
    ```bash
