@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .total {
+            font-size: 1.2em;
+            text-align: right;
+        }
+        .checkout {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            color: white;
+            background: #e74c3c;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .checkout:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Shopping Cart</h1>
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Amazfit Charge 2 Smart Watch</td>
+                <td>1</td>
+                <td>7,500 INR</td>
+                <td>7,500 INR</td>
+            </tr>
+        </table>
+        <p class="total">Total: 7,500 INR</p>
+        <a href="checkout.html" class="checkout">Proceed to Checkout</a>
+    </div>
+</body>
+</html>
