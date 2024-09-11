@@ -42,7 +42,7 @@ To set up InnovateTech locally, follow these steps:
    npm start | node server.js
 
 ## Technologies Used
-I have used HTML, CSS  JavaScript frameworks to built this webpage. Along with that, I have added database connectivity to a form on the Contct Us page.
+I have used HTML, CSS  JavaScript frameworks to built this webpage. Along with that, I have added database connectivity to a form on the Contact Us page.
 
 ## Contact
 Manihas Netha.N
