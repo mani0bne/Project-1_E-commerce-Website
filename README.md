@@ -23,6 +23,7 @@ Welcome to **InnovateTech**, your one-stop destination for the latest and greate
 - **Informative Pages**: Learn more about us on the About Us page and reach out through the Contact Us page.
 - **Responsive Design**: Enjoy a seamless shopping experience on any device.
 - **Server-side connectivity**: This application runs on nodejs and  feedbacks are accepted and stored in the MongoDb compass
+- **Web Domain**:  I have hosted this project on (https://inovatetech.netlify.app/) with the minor edit/removal of MongoDB, but connected the netlify database
 
 ## Installation
 
